@@ -1,0 +1,49 @@
+/* Carousel.css */
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%; /* This can be adjusted based on your design */
+    box-sizing: border-box;
+    display: none;
+  }
+  
+  .active {
+    transform: translateX(0);
+    display: inherit;
+  }
+  
+  .dots {
+    position: relative;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-45%);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    background-color: #01D167;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    opacity: 30%;
+  }
+  
+  .active-dot {
+    background-color: #01D167;
+    width: 16px;
+    opacity: 100%;
+  }
+  

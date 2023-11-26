@@ -1,0 +1,35 @@
+.recent__transactions {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F9FF;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #0000000A;
+    align-items: center;
+}
+
+.recent__transactions--icon-text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.recent__transactions--logo {
+    width: 24px;
+    height: 24px;
+}
+
+.recent__transactions--text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #0C365A;
+    margin-top: 2px;
+    font-weight: 400;
+}
+
+.recent__transactions--upArrow {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

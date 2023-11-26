@@ -1,0 +1,20 @@
+.desktop {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    font-size: 30px;
+}
+
+.desktop__sidebar {
+    position: fixed;
+    width: 26%;
+    background-color: #0C365A;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.desktop__main {
+    margin-left: 26%;
+    width: calc(100% - 26%);
+}

@@ -1,0 +1,24 @@
+.leftsection {
+    /* background-color: lightcyan; */
+    width: 100%;
+    margin-top: 47.5px;
+}
+
+.leftsection__showcardnumber {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.showcardnumber__logo {
+    width: 16px;
+    height: 16px;
+}
+
+.showcardnumber__text {
+    font-size: 12px;
+    line-height: 20px;
+    color: #01D167;
+}

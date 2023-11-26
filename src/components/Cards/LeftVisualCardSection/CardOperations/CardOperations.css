@@ -1,0 +1,35 @@
+.card__operations {
+    width: 414px;
+    height: 116px;
+    background-color: #EDF3FF;
+    margin-left: 40px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+.card__operations--actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.individual__action {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.individual__action--logo {
+    width: 32px;
+    height: 32px;
+}
+
+.individual__action--title {
+    font-size: 13px;
+    color: #0C365A;
+    width: 60px;
+    height: 36px;
+    line-height: 14px;
+    margin-top: 7px;
+}

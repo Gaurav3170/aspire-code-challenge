@@ -1,0 +1,11 @@
+.sidebar__logo {
+    width: 125px;
+    height: 35px;
+}
+
+.sidebar__content {
+    font-family: 'Open Sans', Regular;
+    font-size: 15px;
+    opacity: 30%;
+    margin-top: 19px;
+}

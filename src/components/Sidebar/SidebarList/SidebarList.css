@@ -1,0 +1,31 @@
+.sidebar__list--btn{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.sidebarBtn {
+    width: 164px;
+    height: 24px;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 16px;
+}
+
+.sidebarBtnImg {
+    width: 24px;
+    height: 24px;
+}
+
+.btn--title{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+button:hover .btn--title, .btn--active {
+    color: #01D167;
+}

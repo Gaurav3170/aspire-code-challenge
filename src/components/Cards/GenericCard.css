@@ -1,0 +1,99 @@
+.generic__card {
+    width: 414px;
+    height: 248.85px;
+    background-color: #01D167;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.freeze {
+    opacity: 30% !important;
+}
+
+.generic__card--logo {
+    padding: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.card__logo {
+    width: 16px;
+    height: 16px;
+}
+
+.card__logo--title {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: white;
+}
+
+.generic__card--name {
+    margin-left: 27px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.generic__card--number {
+    display: flex;
+    gap: 27px;
+    margin-top: 33px;
+    margin-left: 27px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dot__block {
+    display: flex;
+    gap: 4px;
+}
+
+.white_dot {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.generic__card--number-digits {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.generic__card--expire-cvv {
+    margin-left: 27px;
+    margin-top: 22px;
+    display: flex;
+    gap: 36px;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 19px;
+    font-weight: bold;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card__cvv {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cvv_star {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+.generic__card--visalogo {
+    margin: 0px 27px;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,106 @@
+.individual__transaction {
+    width: 100%;
+    height: 76px;
+    display: flex;
+}
+
+.individual__transaction--left {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.first__color {
+    background-color: #009DFF1A;
+}
+
+.second__color {
+    background-color: #00D6B51A;
+}
+
+.third__color {
+    background-color: #F251951A;
+}
+
+.transaction--left__icon {
+    margin: 16.4px 16px;
+    width: 16px;
+    height: 15.2px;
+}
+
+.individual__transaction--middle {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 188px;
+}
+
+.individual__transaction--title {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    font-style: 'Open Sans';
+}
+
+.individual__transaction--date {
+    font-size: 13px;
+    color: #AAAAAA;
+    line-height: 18px;
+}
+
+.individual__transaction--status {
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    align-items: center;
+}
+
+.transaction--status__logo-boundary {
+    width: 24px;
+    height: 20px;
+    background-color: #325BAF;
+    border-radius: 50%;
+}
+
+.transaction--status__logo {
+    width: 10px;
+    height: 7.68px;
+    position: relative;
+    margin: 0px 6px 14px 6px;
+}
+
+.transaction--status__text {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #325BAF;
+}
+
+.individual__transaction--right {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.transaction--right__amount {
+    font-size: 14px;
+    color: #01D167;
+    line-height: 18px;
+    width: 72px;
+    height: 19px;
+    text-align: right;
+    display: block;
+    font-weight: bold;
+}
+
+.transaction--right__logo {
+    width: 6.5px;
+    height: 12px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.negative {
+    color: #222222 !important;
+}
